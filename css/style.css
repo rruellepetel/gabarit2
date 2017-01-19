@@ -45,10 +45,13 @@ article {
     border-bottom: 1px solid grey;
     margin-bottom: 2em;
 }
-
 article img {
     float: left;
     padding-right: 20px;
+    box-sizing: border-box;
+}
+img:hover {
+    transform: scale(1.05);
 }
 article h2 {
     margin-bottom: 0.5em;
