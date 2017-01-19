@@ -1,9 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 nav {
     background-color: black;
+    padding:0 2em 0 5em;
 }
 nav li {
     display: inline-block;
     color: white;
     height: 60px;
     line-height: 3.5em;
+    margin-left: 1em;
+}
+h1 {
+    display: inline-block;
+    margin-left: 4em;
+}
+span {
+    color: grey;
+}
+main {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+article {
+    border-bottom: 1px solid grey;
+    margin-bottom: 1em;
+}
+
+article img {
+    float: left;
+    padding-right: 20px;
+}
+input {
+    background-color: blue;
+    border-radius: 7px;
+    padding: 0.5em 1em 0.5em 1em;
+    color: white;
+    margin-bottom: 3em;
+}
+main ul {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main li {
+    display: inline-block;
+    border: 1px solid grey;
+    color: rgb(67, 72, 181);
+    padding: 7px;
+}
+main li:nth-child(2) {
+    color: white;
+    background-color: blue;
+}
+footer {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
 }
