@@ -2,23 +2,39 @@
     margin: 0;
     padding: 0;
 }
+header {
+    border-bottom: 1px solid grey;
+}
 nav {
     background-color: black;
     padding:0 2em 0 5em;
 }
 nav li {
     display: inline-block;
-    color: white;
+    color: grey;
     height: 60px;
     line-height: 3.5em;
-    margin-left: 1em;
+    margin-right: 1em;
+    font-weight: bold;
+}
+nav li:first-child {
+    margin-left: 3.2em;
+    font-size: 20px;
 }
 h1 {
     display: inline-block;
-    margin-left: 4em;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 span {
     color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+.line {
+    border-bottom: 1px solid grey;
+    display: block;
+    margin-bottom: 2em;
 }
 main {
     width: 1020px;
@@ -27,19 +43,26 @@ main {
 }
 article {
     border-bottom: 1px solid grey;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 article img {
     float: left;
     padding-right: 20px;
 }
+article h2 {
+    margin-bottom: 0.5em;
+}
+article h3 {
+    margin-bottom: 0.8em;
+}
 input {
     background-color: blue;
     border-radius: 7px;
     padding: 0.5em 1em 0.5em 1em;
     color: white;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
+    margin-top: 1em;
 }
 main ul {
     text-align: center;
@@ -54,6 +77,7 @@ main li {
     border: 1px solid grey;
     color: rgb(67, 72, 181);
     padding: 7px;
+    margin-top: 1em;
 }
 main li:nth-child(2) {
     color: white;
@@ -63,4 +87,5 @@ footer {
     width: 1020px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3em;
 }
